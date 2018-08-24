@@ -10,13 +10,13 @@ im_shape = (448, 640, 3)
 
 #train
 val_fraction = 0.2
-epoch = 50
-batch_size = 8 
+epoch = 100
+batch_size = 16 
 normalize = True
 starter_learning_rate = 0.01
 decay_steps = 500
 decay_rate = 0.96
-train_steps = 200
+train_steps = 100
 model_save_step = 1000
 
 #model
